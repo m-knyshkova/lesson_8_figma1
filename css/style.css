@@ -1,0 +1,34 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  max-width: 510px;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* background-color: antiquewhite; */
+}
+.span-text {
+  display: inline-block;
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 0.02em;
+  margin-left: 165px;
+}
+.span-text::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 65px; /* 30px это определенная длинна линии*/
+  margin: 8px 0 0 0;
+  background-color: black;
+  border: 1px solid #333333;
+  margin-left: -5px;
+}
